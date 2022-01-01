@@ -1,0 +1,8 @@
+{
+    "author" : ["Rysanlos"],
+    "install_msg" : "My cogs are edited from existing cogs.\nYou should check the original cogs in the index or in the core cogs.\n<https://index.discord.red> or <https://docs.discord.red/en/stable/>",
+    "name" : "RedCustomCogs",
+    "short" : "Edited cogs by many authors.",
+    "description" : "Custom cogs forked from many projects, check the original authors on the git please.",
+    "tags" : ["Forked", "Cogs", "Private", "Edited"]
+}
