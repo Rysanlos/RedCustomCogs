@@ -450,8 +450,8 @@ class TwitchStream(Stream):
         embed.set_author(name=data["user_name"], icon_url=logo)
         #embed.add_field(name=_("Followers"), value=humanize_number(data["followers"]))
         #embed.add_field(name=_("Total views"), value=humanize_number(data["view_count"]))
-	if data["game_name"]:
-	    embed.add_field(name=_("Catégorie"), value=data["game_name"])
+        if data["game_name"]:
+            embed.add_field(name=_("Catégorie"), value=data["game_name"])
         #embed.set_thumbnail(url=logo)
         if data["thumbnail_url"]:
             embed.set_image(url=rnd(data["thumbnail_url"].format(width=640, height=360)))
