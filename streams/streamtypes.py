@@ -457,7 +457,7 @@ class TwitchStream(Stream):
             embed.set_image(url=rnd(data["thumbnail_url"].format(width=640, height=360)))
         #if data["game_name"]:
         #    embed.set_footer(text=_("Playing: ") + data["game_name"])
-	embed.set_footer(text=_("twitch.tv/") + data['login'])
+        embed.set_footer(text=_("twitch.tv/") + data['login'])
         return embed
 
     def __repr__(self):
